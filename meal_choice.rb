@@ -1,10 +1,28 @@
 # Here's an example of a 'snacks' method that returns the meal choice passed in to it and defaults to "cheetos" if nothing is passed in.
-def snacks(food="Cheetos")
+def breakfeast
   "Any time, is the right time for #{food}!" 
+  "Any time, is the right time for #{food}!"
 end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them with a default to your favorite.
 
+def breakfast (breakfast_food= "Frosted Flakes")
+  "Morning is the best time for #{breakfast_food}!"
+end
+  
+breakfeast_food
+
+def lunch (lunch_food= "turkey sandwich")
+  "Lunch is the best time for #{lunch_food}!"
+end
+
+lunch_food
+
+def dinner (dinner_foods= "spaghetti")
+  "Dinner is the best time for #{dinner_food}!"
+end
+
+dinner_food
 
 
 # Call the methods with puts and your own arguments here. Like this:
